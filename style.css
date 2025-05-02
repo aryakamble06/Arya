@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3f3f3;
+}
+.resume {
+  display: flex;
+  max-width: 1000px;
+  margin: 30px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.left {
+  width: 35%;
+  background: #1c1c1c;
+  color: white;
+  padding: 30px;
+}
+.right {
+  width: 65%;
+  background: white;
+  padding: 40px;
+}
+.profile-container {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 25px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #fff;
+}
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+h1 {
+  font-size: 32px;
+  color: #333;
+}
+h3 {
+  font-weight: normal;
+  color: #666;
+  margin-bottom: 30px;
+}
+section {
+  margin-bottom: 25px;
+}
+.left h2, .right h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #008080;
+  display: flex;
+  align-items: center;
+}
+.left h2 i, .right h2 i {
+  margin-right: 8px;
+}
+.left a {
+  color: #ffb347;
+  text-decoration: none;
+}
+.right section p {
+  margin-bottom: 10px;
+}
+.inline-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 10px;
+  padding-left: 0;
+}
+.inline-list li {
+  background: #f0f0f0;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+
